@@ -1,0 +1,54 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="personalInfoScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG">
+			</ImageView>
+			<Label class="h4" top="20">
+				JOB APPLICATION FORM
+			</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" top="10" left="10">
+					2- Personal Information
+				</Label>
+				<View class="wsize hsize horz">
+					<TextField class="textField numberKeyboard" hintText="*Your Age" id="age" width="155" top="5" right="10" required="1">
+					</TextField>
+					<TextField class="textField" hintText="*Date Of Birth" onTouchend="datePicker" onFocus="blr" id="dateOfBirth" width="155" top="5" left="10" required="1">
+					</TextField>
+				</View>
+				<View class="wsize hsize horz">
+					<TextField class="textField" hintText="*Gender" onTouchend="genderPicker" onFocus="blr" id="gender" width="155" right="10" required="1">
+					</TextField>
+					<TextField class="textField" hintText="*Nationality" id="nationality" width="155" left="10" required="1">
+					</TextField>
+				</View>
+				<TextField class="textField" hintText="*Race" id="race" required="1">
+				</TextField>
+				<TextField class="textField" hintText="*Religious" id="religious" required="1">
+				</TextField>
+				<TextField class="textField" hintText="*Marital Status" id="maritalStatus" required="1">
+				</TextField>
+				<TextField class="textField numberKeyboard" hintText="*Phone Number" id="phoneNum" required="1">
+				</TextField>
+				<TextField class="textField emailKeyboard" hintText="*Eamil Address" id="emailAddress" required="1">
+				</TextField>
+				<TextField class="textField" hintText="*Home Address" id="homeAddress" required="1">
+				</TextField>
+				<Label class="h4" top="20" left="10">
+					Additional Info(Optional)
+				</Label>
+				<View class="wsize hsize horz">
+					<TextField class="textField numberKeyboard" hintText="EPF No" id="EPFNo" top="5" width="155" ritgh="10">
+					</TextField>
+					<TextField class="textField" hintText="Driving Licence" id="drivingLicence" width="155" left="10" top="5">
+					</TextField>
+				</View>
+				<TextField class="textField" hintText="Corespondence Address" id="corespondenceAddress">
+				</TextField>
+				<Button class="button" width="330" onClick="goToEmergencyContact">
+					Next
+				</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

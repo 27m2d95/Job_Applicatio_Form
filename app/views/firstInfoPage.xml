@@ -1,0 +1,27 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="indexScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<ImageView id="hala" backgroundColor="#D3D3D3" width="150" height="150" top="10" autorotate="true"></ImageView>
+			<View class="wsize hsize vert" top="30" bottom="10">
+				<Label class="h4" top="10" left="10">1- General Personal Information</Label>
+				<TextField class="textField" hintText="*Name" id="name" required="1" top="5"></TextField>
+				<TextField class="textField" hintText="*IC Number" id="ICNumber" required="1"></TextField>
+				<TextField class="textField" hintText="*Interview Date" required="1" onTouchend="datePicker" onFocus="blr" id="interviewDate"></TextField>
+				<TextField class="textField" hintText="*Interview Time" required="1" onTouchend="timePicker" onFocus="blr" id="interviewTime"></TextField>
+				<TextField class="textField" hintText="*Psotion Applied" required="1" id="positionApplied"></TextField>
+				<TextField class="textField numberKeyboard" required="1" hintText="*Expected Salary (RM)" id="expectedSalary"></TextField>
+				<TextField class="textField" hintText="*Date Commence to Work" required="1" onTouchend="workDatePicker" onFocus="blr" id="workDate"></TextField>
+				<TextField class="textField" hintText="*Company Location" required="1" onTouchend="locationPicker" onFocus="blr" id="companyLoc"></TextField>
+				<View class="wsize hsize horz">
+					<Button class="button" right="30" id="uploadPic" onClick="takePic">Upload Pic</Button>
+					<Button class="button" left="30" onClick="goToPersonalInfo" id="firstButton">Next</Button>
+				</View>
+			</View>
+			
+			
+
+		</ScrollView>
+	</Window>
+</Alloy>

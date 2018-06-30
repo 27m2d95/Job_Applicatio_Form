@@ -1,0 +1,27 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" left="10">6- Languages</Label>
+				<TextField class="textField" required="1" hintText="*Language" id="langName" top="5"></TextField>
+				<View class="wsize hsize horz">
+					<TextField class="textField" required="1" hintText="*Understanding" id="understanding" width="155" right="10" onTouchend="underPicker"></TextField>
+					<TextField class="textField" required="1" hintText="*Speaking" id="speaking" width="155" left="10" onTouchend="speakPicker"></TextField>
+				</View>
+				<View class="wsize hsize horz">
+					<TextField class="textField" required="1" hintText="*Reading" id="reading" width="155" right="10" onTouchend="readPicker"></TextField>
+					<TextField class="textField" required="1" hintText="*Writing" id="writing" width="155" left="10" onTouchend="writePicker"></TextField>
+				</View>
+				<View class="wsize hsize vert" id="viewadd" top="0"></View>
+				
+				<View class="wsize hsize horz">
+					<Button class="button"  right="10" onClick="addLang" id="plusEB" width="155">Add</Button>
+					<Button class="button"  left="10" onClick="rmLang" id="minEB" width="155">Remove</Button>
+				</View>
+				<Button class="button" width="330" onClick="goToWorkingExperience">Next</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

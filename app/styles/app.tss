@@ -1,0 +1,190 @@
+
+'.hr':{
+	width: Ti.UI.FILL,
+	height: 1
+},
+
+
+'.vert':{
+	layout: "vertical"
+},
+
+'.horz':{
+	layout: "horizontal"
+},
+
+'.wfill':{
+	width: Ti.UI.FILL
+},
+
+'.wsize':{
+	width: Ti.UI.SIZE
+},
+
+'.hfill':{
+	height: Ti.UI.FILL
+},
+
+'.hsize':{
+	height: Ti.UI.SIZE
+},
+
+'.padding':{
+	top: 5,
+	left: 10,
+	right: 10,
+	bottom: 5,
+},
+
+'.small-padding':{
+	top: 5,
+	left: 5,
+	right: 5,
+	bottom: 5,
+},
+
+'.box':{
+	borderColor: "#146be8",
+	borderWidth: 1,
+	backgroundColor: "#ffffff",
+},
+
+".rounded":{
+	borderRadius: 4
+},
+
+".h1":{
+	font:{
+		fontSize: '36dp',
+		fontFamily: 'Roboto-Light',
+	}
+},
+
+".h2":{
+	font:{
+		fontSize: '30dp',
+		fontFamily: 'Roboto-Light',
+	}
+},
+
+".h3":{
+	font:{
+		fontSize: '24dp',
+		fontFamily: 'Roboto-Light',
+	}
+},
+
+".h4":{
+	font:{
+		fontSize: '18dp',
+		fontFamily: 'Roboto-Light',
+	},
+},
+
+".h5":{
+	font:{
+		fontSize: '14dp',
+		fontFamily: 'Roboto-Light',
+	}
+},
+
+".h6":{
+	font:{
+		fontSize: '12dp',
+		fontFamily: 'Roboto-Light',
+	}
+},
+".h7":{
+	font:{
+		fontSize: 10
+	}
+},
+".conthsize":{
+	contentHeight: Ti.UI.SIZE
+}
+
+".conthfill":{
+	contentHeight: Ti.UI.FILL
+}
+
+".contwsize":{
+	contentWidth: Ti.UI.SIZE
+}
+
+".contwfill":{
+	contentWidth: Ti.UI.FILL
+},
+
+
+".textField":{
+	width:330,
+	height:Ti.UI.SIZE,
+	top:15,
+	hintTextColor: "gray",
+	color: "black",
+	borderRadius:100,
+	borderColor:"#D3D3D3",
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor : "#D3D3D3",
+},
+".textField1":{
+	hintTextColor: "gray",
+	color: "black",
+	borderColor:"#D3D3D3",
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor : "#D3D3D3",
+	right: 0,
+},
+
+".numberKeyboard":{
+	keyboardType: Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD,
+},
+
+".emailKeyboard":{
+	keyboardType: Titanium.UI.KEYBOARD_TYPE_EMAIL,
+},
+
+".button":{
+	width:135,
+	backgroundColor:"red",
+	borderRadius:100,
+	top:15
+}
+
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+".pad":{
+	top: 15,
+	left: 10,
+	right: 10,
+	bottom: 0,
+},
+
+".check":{
+	width: 50,
+	height:40,
+	left:10,
+	backgroundColor : "white",
+	borderColor:"black"
+	
+	
+},
+
+".h41":{
+	font:{
+		fontSize: '18dp',
+		fontFamily: 'Roboto-Light',
+		fontWeight: 'bold',
+	},
+	
+},
+
+
+

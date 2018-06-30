@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<View class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">Interviewee List</Label>
+			<ListView id="elementsList" top="30" borderColor="black">
+				<ListSection name="elements"/>
+			</ListView>
+		</View>
+	</Window>
+</Alloy>

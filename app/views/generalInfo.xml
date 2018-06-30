@@ -1,0 +1,58 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="indexScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" top="10" left="10">9- General Information</Label>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="5">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">1-Are you prepared to work as and where directed ?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q1" required="1" onTouchend="q1Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">2- Are you prepared to work overtimes as and where required ?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" top="5" hintText="*Answer" id="q2" required="1" onTouchend="q2Picker" onFocus="blr"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" top="0" right="10">3- Are you prepared to work shift including night shift ?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q3" required="1" onTouchend="q3Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">4- Are you prepared to work on weekends and public holiday?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q4" required="1" onTouchend="q4Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">5- Are you prepared to abide by the company work rules and regulations?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q5" required="1" onTouchend="q5Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">6- Do you have any objection to seeking verification and additional information to any matter for this application form your present/former employer?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q6" required="1" onTouchend="q6Picker" onFocus="blr" top="40"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">7- Are you prepared to be relocated/transfer to other clinic/place when necessary ?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q7" required="1" onTouchend="q7Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">8- Have you even been discharged from employment for misconduct ?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q8" required="1" onTouchend="q8Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71%" height="Ti.UI.SIZE" left="5" right="10" top="0">9- Have you had any legal convictions either civil/criminal/bankruptcy/police record in the past ?</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="q9" required="1" onTouchend="q9Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<Button class="button" width="330" onClick="goTo">Next</Button>
+			</View>
+
+		</ScrollView>
+	</Window>
+</Alloy>

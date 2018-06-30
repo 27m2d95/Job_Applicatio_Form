@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" left="10">HR Use Only </Label>
+				<TextField class="textField" required="1" hintText="*Date Hired" id="dateHired" top="5" onTouchend="datePicker" onFocus="blr"></TextField>	
+				<TextField class="textField numberKeyboard" required="1" hintText="*Basic Salary" id="basicSalary" top="15"></TextField>
+				<TextField class="textField" required="1" hintText="*Position" id="position" top="15"></TextField>
+				<TextField class="textField" required="1" hintText="*Location" id="location" top="15" onTouchend="locationPicker" onFocus="blr"></TextField>
+				<TextField class="textField" required="1" hintText="*Factory" id="factory" top="15"></TextField>
+				<TextField class="textField" required="1" hintText="*Hostel" id="hostel" top="15" onTouchend="hostelPicker" onFocus="blr"></TextField>
+				<TextField class="textField" required="1" hintText="*Prepare By" id="prepareBy" top="15"></TextField>
+				<TextField class="textField" required="1" hintText="*Approved By" id="approvedBy" top="15"></TextField>
+				<Button class="button" width="330" onClick="goTo">Next</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="emergencyContactScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" left="10">8- Reference </Label>
+				<TextField class="textField" required="1" hintText="*Name" id="name" top="5"></TextField>
+				<TextField class="textField" required="1" hintText="*Position" id="position"></TextField>
+				<TextField class="textField" required="1" hintText="*Company" id="company"></TextField>
+				<TextField class="textField"  required="1" hintText="*Rlationship" id="relationship"></TextField>
+				<TextField class="textField numberKeyboard"  required="1" hintText="*contact Number" id="contactNo"></TextField>
+				<View class="wsize hsize vert"  id="view1s" top="0"></View>
+				<View class="wsize hsize horz">
+					<Button class="button"  right="30" onClick="addRef" id="plusEC">Add</Button>
+					<Button class="button"  left="30" onClick="rmRef" id="minEC">Remove</Button>	
+				</View>
+				<Button class="button" width="330" onClick="goTo" id="secondButton">Next</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

@@ -1,0 +1,163 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="indexScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" top="10" left="10">11- Health Declaration</Label>
+				<Label class="h4" top="10" left="10">Have you ever suffered any of the following conditions? (if yes please describe)</Label>
+				<View class="horz wfill hsize pad" top="5" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">1- Psychiartic / (Sakit Jiwa)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd1" required="1" onTouchend="hd1Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd1View"></View>
+				
+				
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">2- Epilepsy / (Sawan)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd2" required="1" onTouchend="hd2Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd2View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">3- Migraine / (Migrain)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd3" required="1" onTouchend="hd3Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd3View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">4- Hysteria / (Histeria)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd4" required="1" onTouchend="hd4Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd4View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">5- Allergic Rhinitis / (Resedung)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd5" required="1" onTouchend="hd5Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd5View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">6- Asthma / (Lelah)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd6" required="1" onTouchend="hd6Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd6View"></View>
+				
+				
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">7- Tuberculosis(PTB) / (Batuk Kering)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd7" required="1" onTouchend="hd7Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd7View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">8- Hypertension(HPT) / (Darah Tinggi)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd8" required="1" onTouchend="hd8Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd8View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">9- Diabetes Mellitus(DM) / (Kencing Manis)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd9" required="1" onTouchend="hd9Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd9View"></View>
+				
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">10- Heart Diseases / (Penyakit Jantung)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd10" required="1" onTouchend="hd10Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd10View"></View>
+				
+				
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">11- Thyroid Diseases / (Penyakit Tiroid)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd11" required="1" onTouchend="hd11Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd11View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">12- Kidney Diseases / (Penyakit Buah Pinggang)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd12" required="1" onTouchend="hd12Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd12View"></View>
+				
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">13- Gastric / (Penyakit Gastrik)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd13" required="1" onTouchend="hd13Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd13View"></View>
+				
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">14- HIV / (AIDS)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd14" required="1" onTouchend="hd14Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd14View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">15- Cancer / (Barah)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd15" required="1" onTouchend="hd15Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd15View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">16- Venereal Diseases / (Penyakit Kelamin)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd16" required="1" onTouchend="hd16Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd16View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">17- Leukemia / (Leukimia)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd17" required="1" onTouchend="hd17Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd17View"></View>
+				
+				
+				
+				<View class="horz wsize hsize pad" top="15" borderColor="black">
+					<Label class="h4" width="70%" height="50" left="10">18- Hepatitis / (Hepatitis)</Label>
+					<TextField class="textField1" width="22%" height="50" hintText="*Answer" id="hd18" required="1" onTouchend="hd18Picker" onFocus="blr" left="16"></TextField>
+				</View>
+				<View class="vert wsize hsize pad" top="2.5" borderColor="black" id="hd18View"></View>
+				<Button class="button" width="330" onClick="goTo">Next</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

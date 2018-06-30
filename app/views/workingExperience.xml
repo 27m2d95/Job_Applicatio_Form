@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="emergencyContactScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" left="10">7- Working Experience</Label>
+				<TextField class="textField"  required="1" hintText="Have You Applied For ASP before ?" id="appliedQ" top="5" onTouchend="firstPicker"></TextField>
+				<View class="wsize hsize horz" id="viewApplied"></View>
+				<TextField class="textField"  required="1" hintText="Do You Have any Friends In ASP ?" id="friendQ" onTouchend="secondPicker"></TextField>
+				<View class="wsize hsize vert" id="viewFriend"></View>
+				<TextField class="textField"  required="1" hintText="Do You Have Experience Before ?" id="exQ" onTouchend="thirdPicker"></TextField>
+				<View class="wsize hsize vert" id="view1s"></View>
+				<View class="wsize hsize horz" id="view2s"></View>
+				<TextField class="textField" required="1" hintText="Have You Taken Any Courses?" id="courses" onTouchend="fourthPicker"></TextField>
+				<Button class="button" width="330" onClick="goTo">Next</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

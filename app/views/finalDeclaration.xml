@@ -1,0 +1,47 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="indexScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" top="10" left="10">12- Survey and Declaration</Label>
+				<Label class="h4 wfill" top="20" left="10">Choose the factors that influence your decision to join ASP</Label>
+				
+				<View class="horz wfill hsize pad" top="5" borderColor="black">
+					<View class="check" id="s1"  onTouchend="s1Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Job Challenge / Cabaran Kerja</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s2" onTouchend="s2Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Job Location / Lokasi Tempat Kerja</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s3" onTouchend="s3Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Suitability for Job / Kesesuaian Kerja</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s4" onTouchend="s4Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Salary / Gaji</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s5" onTouchend="s5Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Workload / Beban Kerja</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s6" onTouchend="s6Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Compensation & Benifits / Ganjaran & Faedah</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s7" onTouchend="s7Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Career Opportunities / Peluang Kerjaya</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="10" borderColor="black">
+					<View class="check" id="s8" onTouchend="s8Check"></View>
+					<Label class="h4" width="73%" height="50" left="10">Interested / Minat</Label>
+				</View>
+				
+				<Button class="button" width="330" onClick="goTo">Apply</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

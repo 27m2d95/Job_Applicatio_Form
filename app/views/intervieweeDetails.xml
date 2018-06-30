@@ -1,0 +1,703 @@
+<Alloy>
+	<Window class="container">
+		<ScrollableView bottom="10">
+			<ScrollView class="vert">
+				<Label class="h3" top="10">General Personal Information</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<ImageView width="150" height="150" top = "15" backgroundColor="gray"></ImageView>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41" left="5" color='red'>Name:</Label>
+					<Label class="h4"  left="5" id="">Ahmad Walid</Label>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize"  width="36.5%" top="0">
+						<Label class="h41"  left="5" color='red'>Age:</Label>
+						<Label class="h4"  left="5" id="">50</Label>
+					</View>
+					<View class="vert hsize" width="56%" left="10" top="0">
+						<Label class="h41" left="5" color='red'>IC.No:</Label>
+						<Label class="h4"  left="5" id="">1223332344Mnnncv</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" width="36.5%" top="0">
+						<Label class="h41"  left="5" color='red'>Gender:</Label>
+						<Label class="h4"  left="5" id="">Female</Label>
+					</View>
+					<View class="vert hsize" top="0" width="56%" left="10">
+						<Label class="h41"  left="5" color='red'>Date Of Birth:</Label>
+						<Label class="h4"  left="5" id="">22/03/1998</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" width="36.5%" top="0">
+						<Label class="h41"  left="5" color='red'>Race:</Label>
+						<Label class="h4"  left="5" id="">Middile east</Label>
+					</View>
+					<View class="vert hsize"  width="56%" left="10" top="0">
+						<Label class="h41"  left="5" color='red'>Nationality:</Label>
+						<Label class="h4"  left="5" id="">Syrian</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" width="36.5%">
+						<Label class="h41"  left="5" color='red'>Marital Status:</Label>
+						<Label class="h4"  left="5" id="">Married</Label>
+					</View>
+					<View class="vert hsize"  width="56%" left="10">
+						<Label class="h41"  left="5" color='red'>Religious:</Label>
+						<Label class="h4"  left="5" id="">Muslim</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41"  left="5" color='red'>Phone Number:</Label>
+					<Label class="h4"  left="5" id="">0909909990990</Label>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41"  left="5" color='red'>Email:</Label>
+					<Label class="h4"  left="5" id="">Ahmad Walid@ gmail.com</Label>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41"  left="5" color='red'>Home Address:</Label>
+					<Label class="h4"  left="5" id="">Ahmad aln fun1 cyberjaysd a3 10 29</Label>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" top="0" width="36.5%">
+						<Label class="h41"  left="5" color='red'>EPF No:</Label>
+						<Label class="h4"  left="5" id="">0987</Label>
+					</View>
+					<View class="vert hsize"  width="56%" left="10">
+						<Label class="h41" top="0" left="5" color='red'>Driving Licene:</Label>
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41"  left="5" color='red'>Position Applied:</Label>
+					<Label class="h4"  left="5" id="">Software Developer</Label>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" top="0" width="36.5%">
+						<Label class="h41"  left="5" color='red'>Expected Salary:</Label>
+						<Label class="h4"  left="5" id="">20/07/1999</Label>
+					</View>
+					<View class="vert hsize" top="0" width="56%" left="10">
+						<Label class="h41"  left="5" color='red'>Date Commence to Work:</Label>
+						<Label class="h4"  left="5" id="">30000</Label>
+					</View>
+				</View>
+			</ScrollView>
+
+			<!-- ===========================================================================================================
+			================================================================================================================= -->
+			<ScrollView class="vert">
+				<Label class="h3" top="10">Emergency Contacts</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41"  left="5" color='red'>Name:</Label>
+					<Label class="h4"  left="5" id="">Ahmad Walid</Label>
+				</View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41"  left="5" color='red'>Relationship:</Label>
+					<Label class="h4"  left="5" id="">Ahmad Walid hjhhhjhjhjhjhjhjhjhkjkjjjkjkjjjkjkjjjkjjjkkkkkkkkkk</Label>
+				</View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41" left="5" color='red'>Contact Number:</Label>
+					<Label class="h4"  left="5" id="">Ahmad Walid</Label>
+				</View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41" left="5" color='red'>Address:</Label>
+					<Label class="h4"  left="5" id="add">Ahmad Walidjhjhhjhjhhhhhhhhh</Label>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+			</ScrollView>
+
+			<!-- ===========================================================================================================
+			================================================================================================================= -->
+			<ScrollView class="vert">
+				<Label class="h3" top="10">Family Details</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41"  left="5" color='red'>Father's Name:</Label>
+					<Label class="h4"   left="5" id="add">WAlid za3ter</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" width="58.5%" top="0">
+						<Label class="h41"  left="5" color='red'>Occupation:</Label>
+						<Label class="h4"  left="5" id="">Software Engineer</Label>
+					</View>
+					<View class="vert hsize" width="34.1%" left="10" top="0">
+						<Label class="h41"  left="5" color='red'>Employer:</Label>
+						<Label class="h4"  left="5" id="">yes</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41"  left="5" color='red'>Mother's Name:</Label>
+					<Label class="h4"  left="5" id="">WAlid za3ter</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" width="58.5%" top="0">
+						<Label class="h41"  left="5" color='red'>Occupation:</Label>
+						<Label class="h4"  left="5" id="">20/07/1999</Label>
+					</View>
+					<View class="vert hsize" width="34.1%" left="10" top="0">
+						<Label class="h41"  left="5" color='red'>Employer:</Label>
+						<Label class="h4"  left="5" id="">yes</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41" left="5" color='red'>Spouse's Name:</Label>
+					<Label class="h4"  left="5" id="">WAlid za3ter</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert hsize" width="58.5%" top="0">
+						<Label class="h41"  left="5" color='red'>Occupation:</Label>
+						<Label class="h4"  left="5" id="">20/07/1999</Label>
+					</View>
+					<View class="vert hsize" width="34.1%" left="10" top="0">
+						<Label class="h41"  left="5" color='red'>Employer:</Label>
+						<Label class="h4"  left="5" id="">yes</Label>
+					</View>
+				</View>
+				<View class="vert wfill hsize pad" top="5">
+					<Label class="h41" left="5" color='red'>Contact Number:</Label>
+					<Label class="h4"  left="5" id="">za3ter</Label>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Children</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Siblings</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+			</ScrollView>
+			<!-- ===========================================================================================================
+			================================================================================================================= -->
+			<ScrollView class="vert">
+				<Label class="h3" top="10">Education Background</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="horz wfill hsize pad">
+					<View class="vert wfill hsize" top="0" width="53.5%">
+						<Label class="h41" left="5" color='red'>Institution Name:</Label>
+						<Label class="h4"  left="5" id="">ahmad attar</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="39%">
+						<Label class="h41" left="5" color='red'>Year:</Label>
+						<Label class="h4"  left="5" id="">ahmad attar</Label>
+					</View>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert wfill hsize" top="0" width="53.5%">
+						<Label class="h41" left="5" color='red'>Level Achieved:</Label>
+						<Label class="h4"  left="5" id="">ahmad attar</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="39%">
+						<Label class="h41" left="5" color='red'>Cert&Quilafication:</Label>
+						<Label class="h4"  left="5" id="">ahmad attar</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Languages</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41"  left="5" color='red'>Language:</Label>
+					<Label class="h4"  left="5" id="">English</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert wfill hsize" top="0" width="32.4%">
+						<Label class="h41" left="5" color='red'>Understand:</Label>
+						<Label class="h4"  left="5" id="">Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="20.4%">
+						<Label class="h41" left="7" color='red'>Speak:</Label>
+						<Label class="h4"  left="7" id="">Fair</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="20.4%">
+						<Label class="h41" left="5" color='red'>Read:</Label>
+						<Label class="h4"  left="5" id="">Poor</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="20.4%">
+						<Label class="h41" left="5" color='red'>Write:</Label>
+						<Label class="h4"  left="5" id="">Fair</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Working Experience</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Courses Attended</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Reference</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="vert wfill hsize pad">
+					<Label class="h41"  left="5" color='red'>Name:</Label>
+					<Label class="h4"  left="5" id="">Englishr</Label>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert wfill hsize" top="0" width="46.3%">
+						<Label class="h41" left="5" color='red'>Position:</Label>
+						<Label class="h4"  left="5" id="">Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="46.3%">
+						<Label class="h41" left="5" color='red'>Company:</Label>
+						<Label class="h4"  left="5" id="">Fair</Label>
+					</View>
+				</View>
+				<View class="horz wfill hsize pad" top="5">
+					<View class="vert wfill hsize" top="0" width="46.3%">
+						<Label class="h41" left="5" color='red'>Relationship:</Label>
+						<Label class="h4"  left="5" id="">Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="46.3%">
+						<Label class="h41" left="5" color='red'>Contact No:</Label>
+						<Label class="h4"  left="5" id="">Fair</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+			</ScrollView>
+			<!-- =======================================================================================================================
+			==============================================================================================================-->
+			<ScrollView class="vert">
+				<Label class="h3" top="10">Gnenral Information</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="horz wfill hsize pad">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h41" left="5" color='red'>Question:</Label>
+						<Label class="h4"  left="5" id="">1- Are you prepared to work as and where directed ?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h41" left="5" color='red'>Ans:</Label>
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">2- Are you prepared to work overtime as and where required ?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">3- Are you prepared to work shift including night shift ?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">4- Are you prepared to work on weekends nd public holiday?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">5- Are you prepared to abide by the company work rules and regulations?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">6- Do yo have any objection to seeking verification and additional information to any matter for this application from your present/former employer?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">7- Are you prepared to be relocated/transfer to other clinic/place when necessary?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">8- Have you ever been discharged from employment for misconduct?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="80%" right="10">
+						<Label class="h4"  left="5" id="">9- Have you had any legal convications eihter civil/criminal/bankruptcy/police record in the past?</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Self Analysis</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="horz wfill hsize pad">
+					<View class="vert wfill hsize" top="0" width="30.7%" right="13">
+						<Label class="h41" left="5" color='red'>Hardworking</Label>
+						<Label class="h4"  left="5" id="">Very Poor</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Punctual</Label>
+						<Label class="h4"  left="5" id="">Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Multitasking</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30.7%" right="13">
+						<Label class="h41" left="5" color='red'>Discipline</Label>
+						<Label class="h4"  left="5" id="">Very Poor</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Travel</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Loyal</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30.7%" right="13">
+						<Label class="h41" left="5" color='red'>Work In Stress</Label>
+						<Label class="h4"  left="5" id="">Very Poor</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Confidence</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Follow rules</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30.7%" right="13">
+						<Label class="h41" left="5" color='red'>Work In Group</Label>
+						<Label class="h4"  left="5" id="">Very Poor</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Presentation</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Taking Bribe</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30.7%" right="13">
+						<Label class="h41" left="5" color='red'>Work In Shift</Label>
+						<Label class="h4"  left="5" id="">Very Poor</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Responsible</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30.7%">
+						<Label class="h41" left="5" color='red'>Firm</Label>
+						<Label class="h4"  left="5" id="">Very Good</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Health Declaration</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="horz wfill hsize pad">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h41" left="5" color='red'>Question:</Label>
+						<Label class="h4"  left="5" id="">Psychiartic</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h41" left="5" color='red'>Ans:</Label>
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h41" left="5" color='red'>Desc:</Label>
+						<Label class="h4"  left="5" id="">Hi I am Testing the size of desc</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Epilepsy</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">No</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id=""></Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Migraine</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id=""></Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Hysteria</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Allergic Rhinitis</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Asthma</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Tuberculosis</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Hypertension</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Diabetes Mellitus</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Heart Diseases</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Thyroid Diseases</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Kidney Diseases</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Gastric</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">HIV/(AIDS)</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Cancer</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Venereal Diseases</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Leukemia</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="28%" right="15">
+						<Label class="h4"  left="5" id="">Hepatitis</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="12%" right="15">
+						<Label class="h4"  left="5" id="">Yes</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="50.4%">
+						<Label class="h4"  left="5" id="">hello descripton</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Label class="h3" top="10">Survey</Label>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<View class="horz wfill hsize pad">
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%" right="15">
+						<Label class="h4"  left="5" id="">Job Challenge</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%">
+						<Label class="h4"  left="5" id="">Job Location</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%" right="15">
+						<Label class="h4"  left="5" id="">Suitability for Job</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%">
+						<Label class="h4"  left="5" id="">Salary</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%" right="15">
+						<Label class="h4"  left="5" id="">Compensation&Benifits</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%">
+						<Label class="h4"  left="5" id="">Workload</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray" top="3"></View>
+				<View class="horz wfill hsize pad" top="3">
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%" right="15">
+						<Label class="h4"  left="5" id="">Career Opportunities</Label>
+					</View>
+					<View class="vert wfill hsize" top="0" width="30" height="30" backgroundColor="white" borderColor="black"></View>
+					<View class="vert wfill hsize" top="0" width="37.1%">
+						<Label class="h4"  left="5" id="">Interested</Label>
+					</View>
+				</View>
+				<View class="wfill pad" height="2" backgroundColor="black"></View>
+				<Button class="button" width="330" onClick="starttEvaluation">Start Evaluation</Button>
+			</ScrollView>
+		</ScrollableView>
+	</Window>
+</Alloy>

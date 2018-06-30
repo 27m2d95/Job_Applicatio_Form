@@ -1,0 +1,88 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="indexScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" top="10" left="10">10- Self Analysis</Label>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="5">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Hardworking (it can be shown on your working effort)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s1" required="1" onTouchend="s1Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Discipline (can refer to your discipline record)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s2" required="1" onTouchend="s2Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Work In Stress (can but cannot work if too pushy it is distrected focus)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s3" required="1" onTouchend="s3Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Work In Group (anytime if asked to)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s4" required="1" onTouchend="s4Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Work In Shift (available)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s5" required="1" onTouchend="s5Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Punctual (always commit with work)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s6" required="1" onTouchend="s6Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Travel (ready for it)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s7" required="1" onTouchend="s7Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Confidence (always positive)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s8" required="1" onTouchend="s8Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Presenation (my favourite but need to prepare early)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s9" required="1" onTouchend="s9Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Resposible (accountable on each decision made)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s10" required="1" onTouchend="s10Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Multitasking (can do but not fast as the flash)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s11" required="1" onTouchend="s11Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Loyal (can loyal but company must have given and take)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s12" required="1" onTouchend="s12Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Follow the rules(rules as priority but employees not a robot all the time)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s13" required="1" onTouchend="s13Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Taking Bribe (say no to bribe)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s14" required="1" onTouchend="s14Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<View class="wfill pad" height="1" backgroundColor="gray"></View>
+				<View class="horz wsize hsize pad" top="15">
+					<Label class="h4" width="71.6%" height="Ti.UI.SIZE" left="5" right="10" top="0">Firm (Strictly can be firm basedon surrounding)</Label>
+					<TextField class="textField1" width="22.2%" height="Ti.UI.SIZE" hintText="*Answer" id="s15" required="1" onTouchend="s15Picker" onFocus="blr" top="5"></TextField>
+				</View>
+				<Button class="button" width="330" onClick="goTo">Next</Button>
+			</View>
+
+		</ScrollView>
+	</Window>
+</Alloy>

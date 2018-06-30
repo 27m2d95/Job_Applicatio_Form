@@ -1,0 +1,34 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="familyDetailsScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG"></ImageView>
+			<Label class="h4" top="20">JOB APPLICATION FORM</Label>
+			<View class="wsize hsize vert" top="50" bottom="10">
+				<Label class="h4" left="10">4- Family Details</Label>
+				<TextField class="textField" hintText="*Father's Name" id="fatherName" top="5" required="1"></TextField>
+				<View class="wsize hsize horz">
+					<TextField class="textField" hintText="*Father's Occupation" id="fatherOccupation" width="200" right="10" required="1"></TextField>
+					<TextField class="textField" hintText="*Employer" id="fEmployer" onTouchend="fatherEmployerPicker" onFocus="blr" width="110" left="10" required="1"></TextField>
+				</View>
+				<TextField class="textField" hintText="*Mother's Name" id="motherName" top="30" required="1"></TextField>
+				<View class="wsize hsize horz">
+					<TextField class="textField" hintText="*Mother's Occupation" id="motherOccupation" width="200" right="10" required="1"></TextField>
+					<TextField class="textField" hintText="*Employer" id="mEmployer" onTouchend="motherEmployerPicker" onFocus="blr" width="110" left="10" required="1"></TextField>
+				</View>
+				<TextField class="textField" hintText="Spouse's Name(Hasband/Wife)" id="spouseName" top="30"></TextField>
+				<View class="wsize hsize horz">
+					<TextField class="textField" hintText="Spouse's Occupation" id="spouseOccupation" width="200" right="10"></TextField>
+					<TextField class="textField" hintText="Employer" id="sEmployer" onTouchend="spouseEmployerPicker" onFocus="blr" width="110" left="10"></TextField>
+				</View>
+				<TextField class="textField numberKeyboard" hintText="Spouse's Contact Number" id="spouseContactNum"></TextField>
+				<View class="wsize hsize horz">
+					<TextField class="textField numberKeyboard" hintText="*No of Siblings" id="siblingNum" width="155" right="10" top="30" required="1"></TextField>
+					<TextField class="textField numberKeyboard" hintText="*No of Children" id="childrenNum" width="155" left="10" top="30" required="1"></TextField>
+				</View>
+				
+				<Button class="button" width="330" onClick="goToChildrenAndSiblings">Next</Button>
+			</View>
+
+		</ScrollView>
+	</Window>
+</Alloy>

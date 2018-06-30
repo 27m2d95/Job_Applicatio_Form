@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container" title="Job Application Form">
+		<ScrollView id="indexScroll" class="vert">
+			<ImageView height="50" width="300" top="10" image="/images/logo.PNG">
+			</ImageView>
+			<Label class="h4" top="20">
+				JOB APPLICATION FORM
+			</Label>
+			<View class="wsize hsize vert" top="80" bottom="10">
+				<Label class="h4" top="10" left="50">
+					Welcome to ASP Meical Group
+				</Label>
+				
+				<Label class="h4" top="100" left="10">
+					You Are :
+				</Label>
+				
+				<Button class="button"  width="330" onClick="interviewee">
+					Interviewee (Applicant)
+				</Button>
+				<Button class="button" width="330" onClick="interviewer">
+					Interviewer (Employer)
+				</Button>
+			</View>
+			
+		</ScrollView>
+	</Window>
+</Alloy>
